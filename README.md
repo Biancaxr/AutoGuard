@@ -41,7 +41,7 @@ Não há RFID, segundo fator independente, Wi-Fi, Bluetooth, MQTT ou cifragem de
 ## 🔌 4. Diagrama de Conexões (Pinout)
 ![Diagrama de conexões V5](esquematico/pinout.svg)
 
-![Circuito de referência no Tinkercad](esquematico/tinkercardautogaurd.png)
+![Circuito de referência no Tinkercad](esquematico/tinkercardautoguard.png)
 
 A tabela abaixo reflete os pinos usados na V5, que substituem a pinagem inicial do projeto. A captura do Tinkercad documenta o circuito de referência no simulador. O [pinout detalhado](documentacao/pinout.md) e o [diagrama de ligações](esquematico/pinout.svg) representam a configuração lógica da V5.
 
