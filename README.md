@@ -41,7 +41,7 @@ Não há RFID, segundo fator independente, Wi-Fi, Bluetooth, MQTT ou cifragem de
 ## 🔌 4. Diagrama de Conexões (Pinout)
 ![Diagrama de conexões V5](esquematico/pinout.svg)
 
-![Circuito de referência no Tinkercad](esquematico/circuito_tinkercad.png)
+![Circuito de referência no Tinkercad](esquematico/tinkercardautogaurd.png)
 
 A tabela abaixo reflete os pinos usados na V5, que substituem a pinagem inicial do projeto. A captura do Tinkercad documenta o circuito de referência no simulador. O [pinout detalhado](documentacao/pinout.md) e o [diagrama de ligações](esquematico/pinout.svg) representam a configuração lógica da V5.
 
@@ -71,6 +71,8 @@ A tabela abaixo reflete os pinos usados na V5, que substituem a pinagem inicial 
 3. Inicie a simulação e aguarde 5 segundos.
 4. Para a placa física, abra o arquivo `.ino` no Arduino IDE, instale as bibliotecas Servo e Adafruit LiquidCrystal, selecione Arduino Uno e a porta serial, compile e grave. Confirme a compatibilidade do módulo LCD: `Adafruit_LiquidCrystal lcd(0)` é a configuração usada no simulador; módulos I2C PCF8574 comuns podem exigir outra biblioteca e endereço. Ajuste o aquecimento do PIR real conforme seu módulo (frequentemente 30–60 s), tanto na condição de armar quanto na leitura do PIR. Esses ajustes e a gravação física ainda não foram validados.
 5. Abra o Monitor Serial a 9600 baud. Consulte também o [guia de montagem física](documentacao/montagem-fisica.md).
+
+   [Link do projeto no Tinkercad](https://www.tinkercad.com/things/lLdqd1lKQPs)
 
 ## 🧪 6. Operação e testes
 Credenciais públicas de demonstração: código mestre `246810`, senha `1234`. Não reutilizar em aplicações reais.
