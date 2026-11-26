@@ -1,6 +1,6 @@
 # AutoGuard: Segurança automotiva além da chave
 
-> Projeto prático de IoT e Segurança da Informação desenvolvido na disciplina de Algoritmos e Estrutura de Dados (CESAR School).
+> Projeto prático de IoT e Segurança da Informação desenvolvido na disciplina de Arquitetura de Computadores.
 
 ## 👥 Integrantes da Equipe
 - **Maria Bianca** — rodriguesbianca123123@gmail.com
